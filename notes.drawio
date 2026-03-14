@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2" pages="4">
   <diagram name="Page-1" id="GRI5vAcjq00z_lhZjffb">
-    <mxGraphModel dx="570" dy="336" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="5704" dy="3364" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,7 +149,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e0UiG7KUEdykgW3e1Gmm" name="Page-2">
-    <mxGraphModel dx="2037" dy="1201" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2377" dy="1402" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,9 +161,6 @@
         </mxCell>
         <mxCell id="wDnmegPkQG64K9eDNIVl-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font style=&quot;&quot;&gt;activation function&lt;/font&gt;" vertex="1">
           <mxGeometry height="27" width="61" x="295" y="279" as="geometry" />
-        </mxCell>
-        <mxCell id="wDnmegPkQG64K9eDNIVl-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=40;fontFamily=Helvetica;fontColor=#333333;" value="$$ a^{(1)} = \sigma\left(W \cdot a^{(0)} + b\right)$$" vertex="1">
-          <mxGeometry height="121" width="494" x="1030" y="287" as="geometry" />
         </mxCell>
         <mxCell id="O6xbmdS-d4ec8uWuvkRQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;&lt;i&gt;The exact activation function is not specified&lt;/i&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="36" width="105" x="294" y="232" as="geometry" />
@@ -237,27 +234,6 @@
         <mxCell id="ShFnRIYHl6WGd_ylogX8-5" parent="1" style="text;whiteSpace=wrap;fontColor=#333333;fontFamily=Helvetica;fontSize=20;fontStyle=5;labelBackgroundColor=none;fillColor=none;strokeColor=none;" value="Transition of Activations from One Layer to the Next" vertex="1">
           <mxGeometry height="36" width="594" x="6" y="4" as="geometry" />
         </mxCell>
-        <mxCell id="ShFnRIYHl6WGd_ylogX8-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="Activation vector of input layer (single image, 784 pixels)" vertex="1">
-          <mxGeometry height="24" width="115" x="1336" y="265" as="geometry" />
-        </mxCell>
-        <mxCell id="ShFnRIYHl6WGd_ylogX8-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(16,1)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="23" width="31" x="1455" y="397" as="geometry" />
-        </mxCell>
-        <mxCell id="ShFnRIYHl6WGd_ylogX8-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="Sigmoid&lt;div&gt;applied element-wise&lt;/div&gt;" vertex="1">
-          <mxGeometry height="27" width="78" x="1141" y="275" as="geometry" />
-        </mxCell>
-        <mxCell id="ShFnRIYHl6WGd_ylogX8-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(16, 784)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="23" width="40" x="1253" y="397" as="geometry" />
-        </mxCell>
-        <mxCell id="ShFnRIYHl6WGd_ylogX8-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="Activation vector of first hidden layer" vertex="1">
-          <mxGeometry height="27" width="78" x="1027" y="273" as="geometry" />
-        </mxCell>
-        <mxCell id="ShFnRIYHl6WGd_ylogX8-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(784, 1)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="23" width="40" x="1330" y="397" as="geometry" />
-        </mxCell>
-        <mxCell id="ShFnRIYHl6WGd_ylogX8-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(16,1)&lt;/font&gt;" vertex="1">
-          <mxGeometry height="23" width="31" x="1067" y="397" as="geometry" />
-        </mxCell>
         <mxCell id="ShFnRIYHl6WGd_ylogX8-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(60000, 16)&lt;/font&gt;" vertex="1">
           <mxGeometry height="22" width="60" x="87" y="369" as="geometry" />
         </mxCell>
@@ -275,6 +251,30 @@
         </mxCell>
         <mxCell id="4l-kHLuara85yjC4oxuh-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#808080;fontStyle=2;labelBackgroundColor=none;" value="&lt;div&gt;weights matrix&lt;/div&gt;" vertex="1">
           <mxGeometry height="25" width="57" x="644" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=40;fontFamily=Helvetica;fontColor=#333333;" value="$$ a^{(1)} = \sigma\left(W \cdot a^{(0)} + b\right)$$" vertex="1">
+          <mxGeometry height="121" width="494" x="170" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="Activation vector of input layer (single image, 784 pixels)" vertex="1">
+          <mxGeometry height="24" width="115" x="476" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(16,1)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="23" width="31" x="595" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="Sigmoid&lt;div&gt;applied element-wise&lt;/div&gt;" vertex="1">
+          <mxGeometry height="27" width="78" x="281" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(16, 784)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="23" width="40" x="393" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="Activation vector of first hidden layer" vertex="1">
+          <mxGeometry height="27" width="78" x="167" y="571" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(784, 1)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="23" width="40" x="470" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="avLJx6zM8w7cwjdxQubc-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;opacity=30;fillStyle=solid;fillColor=none;align=left;verticalAlign=top;strokeColor=none;fontColor=#808080;labelBackgroundColor=none;textShadow=0;fontFamily=Helvetica;fontSize=8;fontStyle=2;" value="&lt;font&gt;(16,1)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="23" width="31" x="207" y="695" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -323,7 +323,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page-4" id="wthCiiX95SJ-njkH9N1X">
-    <mxGraphModel dx="634" dy="374" grid="0" gridSize="9" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2593" dy="1529" grid="0" gridSize="9" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="-Irq_3_vZxs-cog1ZffW-0" />
         <mxCell id="-Irq_3_vZxs-cog1ZffW-1" parent="-Irq_3_vZxs-cog1ZffW-0" />
